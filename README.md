@@ -1,4 +1,4 @@
-# nia-poc-codes
+# Gemma-LoRA-ko
 
 **Updated at: 2024.12.04**
 
@@ -14,7 +14,7 @@
 코드는 다음과 같은 구조로 구성되어 있습니다:
 
 ```
-nia-poc-codes
+Gemma-LoRA-ko
 ├─ comet-score-code
 ├─ Dataset-gen-code
 ├─ inference-code
@@ -66,7 +66,7 @@ nia-poc-codes
 ### **초기 설정**
 필요한 Python 라이브러리를 설치하려면 다음 명령어를 실행하세요:
 ```bash
-pip install -r nia-poc-codes/requirements.txt
+pip install -r Gemma-LoRA-ko/requirements.txt
 ```
 참고: PyTorch와 같은 라이브러리는 GPU 환경에 따라 버전을 맞춰야 합니다.
 
