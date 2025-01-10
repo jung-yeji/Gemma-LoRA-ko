@@ -346,12 +346,13 @@ Translate 결과를 분석하여 **Comet score**를 계산합니다. 실행 순�
    ```
 
 4. **언어 매칭 확인**:
-   - 언어 불일치를 감지하고 결과를 업데이트:
+   - 번역 요청 언어와 출력 언어의 불일치를 감지하고 결과를 업데이트:
      ```bash
      python mismatch_language.py --input_file <output>.json \
      --output_file mismatching/test-fft.csv \
      --is_adapter True
      ```
+   - 언어 불일치 시 0점 부여
 
 
 ## 4. 예제
