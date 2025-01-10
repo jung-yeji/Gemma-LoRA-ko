@@ -352,7 +352,7 @@ Translate 결과를 분석하여 **Comet score**를 계산합니다. 실행 순�
      --output_file mismatching/test-fft.csv \
      --is_adapter True
      ```
-   - 언어 불일치 시 0점 부여
+   - 언어 불일치 시 0점 처리
 
 
 ## 4. 예제
